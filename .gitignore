@@ -1,0 +1,9 @@
+#*.*
+#!*.cpp
+#!*.h
+!.gitignore
+!README.md
+!CMakeLists.txt
+x64/
+.vs/
+out/
