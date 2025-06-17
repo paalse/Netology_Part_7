@@ -1,0 +1,5 @@
+FROM gcc:latest
+RUN git clone -q https://github.com/paalse/Netology_Part_4.git /usr/src/Dockergit
+WORKDIR /usr/src/Dockergit/4_2/4_2_01
+RUN g++ main.cpp -o Test
+CMD ["./Test"]
